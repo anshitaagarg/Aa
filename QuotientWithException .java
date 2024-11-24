@@ -14,7 +14,7 @@ import java.util.*;
  System.out.print("Enter two integers: ");
  double number1 = input.nextDouble();
  double number2 = input.nextDouble();
-
+//try and catch block
  try {
  double result = quotient(number1, number2);
  System.out.println(number1 + " / " + number2 + " is " + result);
